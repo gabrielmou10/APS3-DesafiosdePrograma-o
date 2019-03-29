@@ -46,8 +46,8 @@ int mlcs(char a[], int n, char b[], int m) {
 
   int length[MAX_SIZE + 1][MAX_SIZE + 1];
 
-  for (int i = 0; i <= MAX_SIZE; i++) {
-    for (int j = 0; j <= MAX_SIZE; j++) {
+  for (int i = 0; i <= n; i++) {
+    for (int j = 0; j <= m; j++) {
       length[i][j] = -1;
     }
   }
